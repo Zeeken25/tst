@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'calc.ui'
 #
-# Created by: PyQt5 UI code generator 5.7
+# Created by: PyQt5 UI code generator 5.6
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -329,7 +329,7 @@ class Ui_Calculator(object):
         self.calcDisplayRes.setFont(font)
         self.calcDisplayRes.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.calcDisplayRes.setAutoFillBackground(True)
-        self.calcDisplayRes.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.calcDisplayRes.setFrameShape(QtWidgets.QFrame.Box)
         self.calcDisplayRes.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.calcDisplayRes.setLineWidth(2)
         self.calcDisplayRes.setTextFormat(QtCore.Qt.RichText)
@@ -496,10 +496,10 @@ class Ui_Calculator(object):
         self.calcDisplay.setFont(font)
         self.calcDisplay.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.calcDisplay.setAutoFillBackground(True)
-        self.calcDisplay.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.calcDisplay.setFrameShape(QtWidgets.QFrame.Box)
         self.calcDisplay.setFrameShadow(QtWidgets.QFrame.Sunken)
-        self.calcDisplay.setLineWidth(3)
-        self.calcDisplay.setMidLineWidth(2)
+        self.calcDisplay.setLineWidth(1)
+        self.calcDisplay.setMidLineWidth(1)
         self.calcDisplay.setTextFormat(QtCore.Qt.RichText)
         self.calcDisplay.setScaledContents(True)
         self.calcDisplay.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
@@ -668,7 +668,7 @@ class Ui_Calculator(object):
         self.verticalLayout_2.addLayout(self.horizontalLayout_2)
         Calculator.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(Calculator)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 287, 28))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 287, 21))
         self.menubar.setObjectName("menubar")
         self.menuMenu = QtWidgets.QMenu(self.menubar)
         self.menuMenu.setObjectName("menuMenu")
